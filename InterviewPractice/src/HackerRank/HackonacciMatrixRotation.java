@@ -33,20 +33,23 @@ public class HackonacciMatrixRotation {
         for(int a0 = 0; a0 < q; a0++){
             int angle = in.nextInt();
             int times = (angle / 90)% 4;
-            if(times == 0)
-                newmatrix = matrix;
-            else if(times == 1)
-                newmatrix = rotatematrix(matrix);
-            else if(times == 2)
+            switch(times)
             {
-                newmatrix = rotatematrix(matrix);
-                newmatrix = rotatematrix(newmatrix);
-            }
-            else if(times == 3)
-            {
-                newmatrix = rotatematrix(matrix);
-                newmatrix = rotatematrix(newmatrix);
-                newmatrix = rotatematrix(newmatrix);
+                case 0:
+                    newmatrix = matrix;
+                    break;
+                case 1:
+                    newmatrix = rotatematrix(matrix);
+                    break;
+                case 2:
+                    newmatrix = rotatematrix(matrix);
+                    newmatrix = rotatematrix(newmatrix);
+                    break;
+                case 3:
+                    newmatrix = rotatematrix(matrix);
+                    //newmatrix = rotatematrix(newmatrix);
+                    //newmatrix = rotatematrix(newmatrix);
+                    break;
             }
 
             long count = 0;
@@ -80,7 +83,7 @@ public class HackonacciMatrixRotation {
 
     public static boolean hackonacci(long n)
     {
-        int result = (int)n%7;
+        int result = (int)(n%7l);
         switch(result)
         {
             case 0:
