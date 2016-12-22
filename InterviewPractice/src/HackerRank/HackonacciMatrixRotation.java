@@ -18,9 +18,11 @@ public class HackonacciMatrixRotation {
         ArrayList<Long> fud = new ArrayList<>();
         boolean no;
         double ans = 0;
+        HashMap<Integer,Long> rotmatrix = new HashMap<>();
         map.put(1,1l);
         map.put(2,2l);
         map.put(3,3l);
+
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<n;j++)
@@ -30,37 +32,23 @@ public class HackonacciMatrixRotation {
                 matrix[i][j] = no;
             }
         }
+
+        newmatrix = rotatematrix(matrix);
+        rotmatrix.put(1,checkdiff(matrix,newmatrix));
+        newmatrix = rotatematrix(newmatrix);
+        rotmatrix.put(2,checkdiff(matrix,newmatrix));
+        newmatrix = rotatematrix(newmatrix);
+        rotmatrix.put(3,checkdiff(matrix,newmatrix));
+        long count = 0;
+
         for(int a0 = 0; a0 < q; a0++){
             int angle = in.nextInt();
             int times = (angle / 90)% 4;
-            switch(times)
-            {
-                case 0:
-                    newmatrix = matrix;
-                    break;
-                case 1:
-                    newmatrix = rotatematrix(matrix);
-                    break;
-                case 2:
-                    newmatrix = rotatematrix(matrix);
-                    newmatrix = rotatematrix(newmatrix);
-                    break;
-                case 3:
-                    newmatrix = rotatematrix(matrix);
-                    //newmatrix = rotatematrix(newmatrix);
-                    //newmatrix = rotatematrix(newmatrix);
-                    break;
-            }
 
-            long count = 0;
-            for(int i=0;i<n;i++)
-            {
-                for(int j=0;j<n;j++)
-                {
-                    if(matrix[i][j] != newmatrix[i][j])
-                        count++;
-                }
-            }
+            if(rotmatrix.containsKey(times))
+                count = rotmatrix.get(times);
+            else
+                count = 0;
             fud.add(count);
         }
         for(long var:fud)
@@ -69,6 +57,20 @@ public class HackonacciMatrixRotation {
         }
 
     }
+    public static long checkdiff(boolean[][] matrix1,boolean[][] matrix2)
+    {
+        long count = 0;
+        for(int i=0;i<matrix1.length;i++)
+        {
+            for(int j=0;j<matrix1.length;j++)
+            {
+                if(matrix1[i][j] != matrix2[i][j])
+                    count++;
+            }
+        }
+        return count;
+    }
+
 
     public static boolean[][] rotatematrix(boolean[][] matrix) {
         final int m = matrix.length;
