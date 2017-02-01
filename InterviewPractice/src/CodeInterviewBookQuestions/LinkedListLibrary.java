@@ -20,6 +20,15 @@ public class LinkedListLibrary
             head = head.next;
         head.next = newNode;
     }
+    void displayLinkedList()
+    {
+        LinkedListLibrary curr = this;
+        while(curr != null)
+        {
+            System.out.println(curr.data);
+            curr = curr.next;
+        }
+    }
     LinkedListLibrary delete(int data)
     {
         LinkedListLibrary curr = this;
