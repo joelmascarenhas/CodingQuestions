@@ -1,9 +1,6 @@
 package CodeInterviewBookQuestions;
 
 import java.util.Scanner;
-
-import static CodeInterviewBookQuestions.FindKthElementfromBackofLinkedList.findelement;
-
 /**
  * Created by Joel on 01-02-2017.
  */
