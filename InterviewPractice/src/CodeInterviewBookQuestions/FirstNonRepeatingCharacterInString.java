@@ -12,7 +12,7 @@ public class FirstNonRepeatingCharacterInString {
         String str = scanner.next();
         System.out.println(findnonrepeatchar(str));
     }
-    static char findnonrepeatchar(String str)
+    static String findnonrepeatchar(String str)
     {
         char arr[] = str.toCharArray();
         HashMap<Character,Integer> map = new HashMap<>();
@@ -33,7 +33,7 @@ public class FirstNonRepeatingCharacterInString {
             }
 
         }
-        return letter;
+        return letter+"";
     }
 
 }
