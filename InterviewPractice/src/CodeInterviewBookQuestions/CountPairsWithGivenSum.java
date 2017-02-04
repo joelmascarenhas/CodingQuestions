@@ -39,7 +39,7 @@ public class CountPairsWithGivenSum {
             {
                 count+=map.get(a)-1;
             }
-            else if(map.containsKey(temp))
+            else if(map.containsKey(temp)&&(temp!=a))
                 count+=map.get(temp);
         }
         return (count%2==0)?count/2:(count/2)+1;
