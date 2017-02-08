@@ -30,6 +30,8 @@ public class CheckIfPointInTriangle {
     {
         boolean boatflag=false,planeflag=false;
         float areatri = findArea(x1,y1,x2,y2,x3,y3);
+        if(areatri == 0)
+            return "Not a triangle";
         System.out.println(areatri);
 
         float areab1 = findArea(bx,by,x2,y2,x3,y3);
