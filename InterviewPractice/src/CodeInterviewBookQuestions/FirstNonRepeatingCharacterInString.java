@@ -5,12 +5,13 @@ import java.util.Scanner;
 
 /**
  * Created by Joel on 04-02-2017.
+ * //First non repeating character in a string done using HashMap
  */
 public class FirstNonRepeatingCharacterInString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
-        System.out.println(findnonrepeatchar(str));
+        System.out.println("First Non-repeating character" + findnonrepeatchar(str));
     }
     static String findnonrepeatchar(String str)
     {
