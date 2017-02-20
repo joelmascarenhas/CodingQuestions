@@ -26,7 +26,7 @@ public class CountPairsWhoseDiffisK {
     public static int Countpairs(int arr[],int diff)
     {
         Set<Integer> set = new HashSet<Integer>();
-        int temp,count=0;
+        int temp=0,count=0;
         for(int a:arr)
         {
             if(set.contains(a))
