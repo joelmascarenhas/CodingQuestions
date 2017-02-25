@@ -1,18 +1,23 @@
 package CodeInterviewBookQuestions;
 
+import sun.awt.image.ImageWatched;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by Joel on 01-02-2017.
  */
 public class LinkedListLibrary
 {
-    int data;
-    LinkedListLibrary next;
-    LinkedListLibrary(int data)
+    public int data;
+    public LinkedListLibrary next;
+    public LinkedListLibrary(int data)
     {
         this.data = data;
         this.next = null;
     }
-    void insertatEnd(int data)
+    public void insertatEnd(int data)
     {
         LinkedListLibrary newNode = new LinkedListLibrary(data);
         LinkedListLibrary head = this;
@@ -20,7 +25,7 @@ public class LinkedListLibrary
             head = head.next;
         head.next = newNode;
     }
-    void displayLinkedList()
+    public void displayLinkedList()
     {
         LinkedListLibrary curr = this;
         while(curr != null)
@@ -29,7 +34,7 @@ public class LinkedListLibrary
             curr = curr.next;
         }
     }
-    LinkedListLibrary delete(int data)
+    public LinkedListLibrary delete(int data)
     {
         LinkedListLibrary curr = this;
         LinkedListLibrary prev = null;
@@ -52,7 +57,7 @@ public class LinkedListLibrary
         }
         return this;
     }
-    boolean checkifexists(int data)
+    public boolean checkifexists(int data)
     {
         LinkedListLibrary curr = this;
         while(curr != null)
@@ -63,7 +68,7 @@ public class LinkedListLibrary
         }
         return false;
     }
-    int getLinkedListlength()
+    public int getLinkedListlength()
     {
         int length = 0;
         LinkedListLibrary curr = this;
@@ -73,6 +78,24 @@ public class LinkedListLibrary
             curr = curr.next;
         }
         return length;
+    }
+    public boolean checkForCycle()
+    {
+        return true;
+    }
+    public boolean checkForCycleHash(LinkedListLibrary head)
+    {
+        Set<LinkedListLibrary> set = new HashSet<LinkedListLibrary>();
+        while(head != null)
+        {
+            if(set.contains(head))
+                return true;
+            else {
+                set.add(head);
+                head = head.next;
+            }
+        }
+        return false;
     }
 
 }
