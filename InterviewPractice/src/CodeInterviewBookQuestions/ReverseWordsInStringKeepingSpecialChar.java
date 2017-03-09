@@ -14,7 +14,8 @@ public class ReverseWordsInStringKeepingSpecialChar {
         int j = 0;
         for(int i=0;i<col.length;i++)
         {
-            if((col[i] >= 65 && col[i] <= 90)||(col[i] >= 97 && col[i] <= 122)|| (col[i] == ' '))
+            //if((col[i] >= 65 && col[i] <= 90)||(col[i] >= 97 && col[i] <= 122)|| (col[i] == ' '))
+            if((Character.isLetter(col[i]))|| Character.isSpaceChar(col[i]))
             {
                 temp.append(col[i]);
             }
