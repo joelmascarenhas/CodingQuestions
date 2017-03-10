@@ -27,6 +27,8 @@ public class BasicBST {
         System.out.println(tree.checkifelementexists(tree.root,15));
         System.out.println(tree.checkifelementexists(tree.root,7));
 
+        System.out.println(tree.countNodes(tree.root));
+
     }
 }
 
@@ -117,5 +119,12 @@ class BST
         else if(key < current.value)
             return checkifelementexists(current.leftchild,key);
         return checkifelementexists(current.rightchild,key);
+    }
+    int countNodes(BSTNode current)
+    {
+        if(current == null)
+            return 0;
+        else
+            return (countNodes(current.leftchild) + countNodes(current.rightchild) + 1);
     }
 }
