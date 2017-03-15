@@ -43,6 +43,10 @@ class BSTNode
         leftchild = null;
         rightchild = null;
     }
+    public boolean equals(BSTNode node)
+    {
+        return this.value == node.value;
+    }
 }
 
 class BST
