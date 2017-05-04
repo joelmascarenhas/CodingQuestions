@@ -54,6 +54,11 @@ public class LinkedListLibrary
                 temp.next = null;
                 break;
             }
+            else
+            {
+                prev = curr;
+                curr = curr.next;
+            }
         }
         return this;
     }
