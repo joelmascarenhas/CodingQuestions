@@ -1,8 +1,6 @@
 package CodeInterviewBookQuestions;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by Joel on 30-01-2017.
@@ -17,6 +15,8 @@ public class FindFirstRepeatingElementinArray {
     public static char FindRepeatingChar(char[] arr)
     {
         Set<Character> set = new HashSet<>();
+        Map<Integer,Integer> map = new HashMap<>();
+
         int len = arr.length;
         char temp = '!';
         for(int i = len - 1;i >= 0; i--)
