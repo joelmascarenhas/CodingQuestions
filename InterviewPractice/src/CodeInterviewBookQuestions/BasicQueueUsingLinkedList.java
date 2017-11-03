@@ -1,11 +1,15 @@
 package CodeInterviewBookQuestions;
 
+import java.util.ArrayList;
+
 /**
  * Created by Joel on 09-03-2017.
  */
 public class BasicQueueUsingLinkedList {
     public static void main(String[] args) {
         LinkedListQueue<Number> queue = new LinkedListQueue<>();
+
+        ArrayList<Integer> arr = new ArrayList<>();
         System.out.println(queue.isEmpty());
         queue.push(0.000003);
         queue.push(-13f);
