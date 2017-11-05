@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0b4836-d5b8-4cd7-b7eb-b86d3c329562" name="Default" comment="SecondSmallestNoInArray&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HackerRank/LargestRectInHist_Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/BestString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/LiveRamp_HolidayScheduler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/PureStorage_CountPalindromes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/PureStorage_LockAnalyser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leetcode/LC198_HouseRobber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leetcode/LC617_MergeTwoBinaryTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/Audible_BudgetShopping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/Audible_PrefixtoPostfix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/Audible_SumOfAllSubarrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InterviewQuestions/Twitter_CountPhrases.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicQueueUsingLinkedList.java" afterPath="$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicQueueUsingLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,43 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode_TwoSum_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/LeetCode_TwoSum_1.java">
+      <file leaf-file-name="Audible_SumOfAllSubarrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_SumOfAllSubarrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LC617_MergeTwoBinaryTrees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/LC617_MergeTwoBinaryTrees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PureStorage_CountPalindromes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/PureStorage_CountPalindromes.java">
+      <file leaf-file-name="Audible_PrefixtoPostfix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_PrefixtoPostfix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PureStorage_LockAnalyser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/PureStorage_LockAnalyser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="381">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,24 +55,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiveRamp_HolidayScheduler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/LiveRamp_HolidayScheduler.java">
+      <file leaf-file-name="Twitter_CountPhrases.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Twitter_CountPhrases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LC198_HouseRobber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/LC198_HouseRobber.java">
+      <file leaf-file-name="Audible_BudgetShopping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_BudgetShopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="458">
+              <caret line="57" column="62" lean-forward="true" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1874#1875#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,10 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SodaCodeChallenge/KingdomConnectivity.java" />
-        <option value="$PROJECT_DIR$/src/SodaCodeChallenge/IndianJobHeist.java" />
-        <option value="$PROJECT_DIR$/src/SodaCodeChallenge/IndianJobHeist_greedy.java" />
-        <option value="$PROJECT_DIR$/src/SodaCodeChallenge/CountPairsWhoseDiffisK.java" />
         <option value="$PROJECT_DIR$/src/SodaCodeChallenge/CheckLoopsInLinkedList.java" />
         <option value="$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicStackImpl.java" />
         <option value="$PROJECT_DIR$/src/InterviewQuestions/NoOfIslands.java" />
@@ -180,6 +153,10 @@
         <option value="$PROJECT_DIR$/src/InterviewQuestions/PureStorage_CountPalindromes.java" />
         <option value="$PROJECT_DIR$/src/InterviewQuestions/PureStorage_LockAnalyser.java" />
         <option value="$PROJECT_DIR$/src/InterviewQuestions/LiveRamp_HolidayScheduler.java" />
+        <option value="$PROJECT_DIR$/src/InterviewQuestions/Audible_SumOfAllSubarrays.java" />
+        <option value="$PROJECT_DIR$/src/InterviewQuestions/Audible_PrefixtoPostfix.java" />
+        <option value="$PROJECT_DIR$/src/InterviewQuestions/Audible_BudgetShopping.java" />
+        <option value="$PROJECT_DIR$/src/InterviewQuestions/Twitter_CountPhrases.java" />
       </list>
     </option>
   </component>
@@ -286,67 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LiveRamp_HolidayScheduler">
-    <configuration default="false" name="LC136_SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LC136_SingleNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InterviewPractice" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="LC485_MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LC485_MaxConsecutiveOnes" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InterviewPractice" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="LC198_HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LC198_HouseRobber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InterviewPractice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Audible_BudgetShopping">
     <configuration default="false" name="PureStorage_CountPalindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -375,6 +292,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="InterviewQuestions.LiveRamp_HolidayScheduler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InterviewPractice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Audible_SumOfAllSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="InterviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="InterviewQuestions.Audible_SumOfAllSubarrays" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InterviewPractice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Audible_PrefixtoPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="InterviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="InterviewQuestions.Audible_PrefixtoPostfix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InterviewPractice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Audible_BudgetShopping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="InterviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="InterviewQuestions.Audible_BudgetShopping" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -775,19 +752,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LC136_SingleNumber" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LC485_MaxConsecutiveOnes" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LC198_HouseRobber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PureStorage_CountPalindromes" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LiveRamp_HolidayScheduler" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PureStorage_CountPalindromes" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LiveRamp_HolidayScheduler" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Audible_SumOfAllSubarrays" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Audible_PrefixtoPostfix" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Audible_BudgetShopping" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LiveRamp_HolidayScheduler" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PureStorage_CountPalindromes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LC198_HouseRobber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LC485_MaxConsecutiveOnes" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LC136_SingleNumber" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Audible_BudgetShopping" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Audible_PrefixtoPostfix" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Audible_SumOfAllSubarrays" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LiveRamp_HolidayScheduler" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PureStorage_CountPalindromes" />
       </list>
     </recent_temporary>
   </component>
@@ -848,7 +825,7 @@
       <workItem from="1504061052545" duration="1274000" />
       <workItem from="1504144512877" duration="3948000" />
       <workItem from="1508464956271" duration="1211000" />
-      <workItem from="1509599595073" duration="6761000" />
+      <workItem from="1509599595073" duration="18350000" />
     </task>
     <task id="LOCAL-00012" summary="CheckEquiOrIsoTriangle">
       <created>1485920547057</created>
@@ -1197,7 +1174,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309400000" />
+    <option name="totallyTimeSpent" value="320989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,14 +1197,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29623568" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091653" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30114567" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5335516" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1334,8 +1311,14 @@
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewQuestions/Audible_PrefixtoPostfix.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1344,34 +1327,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HackerRank/LargestRectInHist_Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicStackUsingArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicQueueUsingArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodeInterviewBookQuestions/BasicStackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeInterviewBookQuestions/ReverseWordsInString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -1678,28 +1633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/LeetCode_TwoSum_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Leetcode/LC617_MergeTwoBinaryTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/PureStorage_CountPalindromes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1716,10 +1653,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/LiveRamp_HolidayScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
+        <state relative-caret-position="408">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/PureStorage_CountPalindromes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/LeetCode_TwoSum_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_SumOfAllSubarrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_BudgetShopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="57" column="62" lean-forward="true" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Audible_PrefixtoPostfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewQuestions/Twitter_CountPhrases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
