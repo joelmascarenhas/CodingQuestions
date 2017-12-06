@@ -11,7 +11,7 @@ public class PureStorage_CountPalindromes {
         String str = scanner.next();
         System.out.println(countPalin(str));
     }
-    public static int countPalin(String str)
+    public static int countPalin(String S)
     {
         /*int size = str.length();
         int arr[][] = new int[size+1][size+1];
@@ -34,26 +34,26 @@ public class PureStorage_CountPalindromes {
         }
         return arr[0][size-1];*/
 
-        int size = str.length(),counter,start,end;
+        int size = S.length(),ctr,start,end;
         int result = size;
         for(int i=1;i< size - 1;i++)
         {
-            counter = 0;
+            ctr = 0;
             start = i-1;
             end=i+1;
-            while((start >= 0 && end < size) && (str.charAt(start--) == str.charAt(end++)))
+            while((start >= 0 && end < size) && (S.charAt(start--) == S.charAt(end++)))
             {
-                counter++;
+                ctr = ctr + 1;
             }
-            result+=counter;
-            counter = 0;
+            result = result + ctr;
+            ctr = 0;
             start = i - 1;
             end = i;
-            while((start >= 0 && end < size) && (str.charAt(start--) == str.charAt(end++)))
+            while((start >= 0 && end < size) && (S.charAt(start--) == S.charAt(end++)))
             {
-                counter++;
+                ctr = ctr + 1;
             }
-            result+=counter;
+            result = result + ctr;
         }
         return result;
     }

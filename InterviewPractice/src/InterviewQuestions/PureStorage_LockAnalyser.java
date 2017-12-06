@@ -13,9 +13,13 @@ public class PureStorage_LockAnalyser {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
         String s[] = new String[size];
-        for(int i=0;i<size;i++)
+        for(int i=0;i<size+1;i++)
         {
-            s[i] = scanner.next();
+            if(i==0){
+                scanner.nextLine();
+                continue;
+            }
+            s[i-1] = scanner.nextLine();
         }
         System.out.println(checkLocks(s));
     }
@@ -23,26 +27,39 @@ public class PureStorage_LockAnalyser {
     {
         int len = s.length;
         int result = 0;
-        Stack<String> stack = new Stack<>();
-        Set<String> set = new HashSet<>();
-        if(s[0].contains("RELEASE"))
-            return 1;
-        else
+        Stack<Integer> stack = new Stack<>();
+        Set<Integer> set = new HashSet<>();
+        for(int i=0;i<len;i++)
         {
-            stack.push(s[0]);
-            set.add(s[0]);
-        }
-        for(int i=1;i<len;i++)
-        {
-            if(set.contains(s[i]))
-                return i;
-            else
+            String val[] = s[i].split(" ");
+            if(val[0].equals("ACQUIRE"))
             {
-                s[i].contains("RELEASE");
-                String lastlock = stack.pop();
-
+                int locknum = Integer.parseInt(val[1]);
+                if(set.contains(locknum))
+                    return i+1;
+                else
+                {
+                    set.add(locknum);
+                    stack.push(locknum);
+                }
+            }
+            else if(val[0].equals("RELEASE"))
+            {
+                if(stack.peek() != Integer.parseInt(val[1]))
+                    return i+1;
+                else if(!set.contains(Integer.parseInt(val[1])))
+                {
+                    return i+1;
+                }
+                else
+                {
+                    stack.pop();
+                    set.remove(Integer.parseInt(val[1]));
+                }
             }
         }
+        if(!stack.isEmpty())
+            return len+1;
         return result;
     }
 
